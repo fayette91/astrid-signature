@@ -1,0 +1,23 @@
+.ast-f-bx {width: 300px; height: 180px; margin: auto; position: relative; background: #111; border: 10px solid #222; outline: 1px solid #943131; outline-offset: -10px; overflow: hidden; transition: all ease-in-out 0.7s}
+
+.ast-f-bx img {width: 300px; height: 180px; transition: all ease-in-out 0.7s;}
+
+.ast-f-bx:hover {transition: all ease-in-out 0.7s; border: 10px solid #222;}
+
+.ast-f-bx:hover img {transition: all ease-in-out 0.7s; filter: grayscale(1) blur(0px) brightness(80%); transition-delay: 0.3s}
+
+.ast-f-txt {width: 300px; height: auto; margin: -39px 0px 0px 0px; position: absolute; font-family: noto sans mono; color: gainsboro; font-size: 9px; text-transform: uppercase; padding: 12px; letter-spacing: 3px; background: rgb(50, 0, 0, .5); transition: all ease-in-out 0.7s; font-style: italic; transition-delay: 0.8s}
+
+.ast-f-bx:hover .ast-f-txt {transition: all ease-in-out 0.7s; margin: 10px 0px 0px 0px}
+
+.ast-frase {width: 180px; height: auto; margin: -118px 0px 0px 57px; position: absolute; font-family: noto sans mono; color: gainsboro; font-size: 10px; text-transform: uppercase; letter-spacing: 1px; text-align: center; line-height: 180%; transition: all ease-in-out 0.7s; opacity: 0; filter: blur(5px)}
+
+.ast-frase span {font-family: rubik; color: #943131; font-size: 13px}
+
+.ast-frase b {font-size: 11px; font-style: italic}
+
+.ast-f-bx:hover .ast-frase {transition: all ease-in-out 0.7s; opacity: 1; filter: blur(0px); transition-delay: 1.0s}
+
+.ast-f-b {width: 300px; height: 185px; margin: 0px 0px 0px 0px; position: absolute; background: #943131; transition: all ease-in-out 0.7s; transition-delay: 0.2s; mix-blend-mode: multiply}
+
+.ast-f-bx:hover .ast-f-b {transition: all ease-in-out 0.7s; margin: -185px 0px 0px 0px; transition-delay: 0.5s}
