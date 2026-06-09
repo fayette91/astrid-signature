@@ -1,0 +1,8 @@
+@/font-face {
+font-family: 'FUENTE';
+src: url('./FUENTE.woff2') format('woff2'),
+url('./FUENTE.woff') format('woff');
+font-weight: regular;
+font-style: normal;
+font-display: swap;
+}
